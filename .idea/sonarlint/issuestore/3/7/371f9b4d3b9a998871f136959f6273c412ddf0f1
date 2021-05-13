@@ -1,0 +1,15 @@
+
+0
+java:S1220""Move this file to a named package.
+y
+java:S1488"cImmediately return this expression instead of assigning it to the temporary variable "precioTotal".(êËæè
+B
+java:S1612",Replace this lambda with a method reference.(êËæè
+\
+java:S4034@"FReplace this "filter().findAny().isPresent()" chain with "anyMatch()".(´ƒ¯ë
+c
+java:S4034D"HReplace this "filter().findFirst().isPresent()" chain with "anyMatch()".( ¯ñüüÿÿÿÿ
+a
+java:S4034L"FReplace this "filter().findAny().isPresent()" chain with "anyMatch()".(‡ö¦ùÿÿÿÿ
+c
+java:S4034P"HReplace this "filter().findFirst().isPresent()" chain with "anyMatch()".(Äòûºşÿÿÿÿ
