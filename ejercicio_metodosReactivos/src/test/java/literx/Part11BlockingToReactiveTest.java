@@ -1,17 +1,19 @@
-package io.pivotal.literx;
+package literx;
 
-import java.util.Iterator;
 
-import io.pivotal.literx.domain.User;
-import io.pivotal.literx.repository.BlockingUserRepository;
-import io.pivotal.literx.repository.ReactiveRepository;
-import io.pivotal.literx.repository.ReactiveUserRepository;
+import literx.domain.User;
+import literx.repository.BlockingUserRepository;
+import literx.repository.ReactiveRepository;
+import literx.repository.ReactiveUserRepository;
 import org.junit.jupiter.api.Test;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 import reactor.core.scheduler.Scheduler;
 import reactor.core.scheduler.Schedulers;
 import reactor.test.StepVerifier;
+
+
+import java.util.Iterator;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

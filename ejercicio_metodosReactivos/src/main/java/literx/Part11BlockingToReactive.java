@@ -1,7 +1,8 @@
-package io.pivotal.literx;
+package literx;
 
-import io.pivotal.literx.domain.User;
-import io.pivotal.literx.repository.BlockingRepository;
+
+import literx.domain.User;
+import literx.repository.BlockingRepository;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 import reactor.core.scheduler.Scheduler;

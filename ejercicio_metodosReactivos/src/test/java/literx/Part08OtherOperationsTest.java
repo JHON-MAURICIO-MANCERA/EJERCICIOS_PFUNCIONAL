@@ -1,8 +1,9 @@
-package io.pivotal.literx;
+package literx;
 
-import io.pivotal.literx.domain.User;
-import io.pivotal.literx.repository.ReactiveRepository;
-import io.pivotal.literx.repository.ReactiveUserRepository;
+
+import literx.domain.User;
+import literx.repository.ReactiveRepository;
+import literx.repository.ReactiveUserRepository;
 import org.junit.jupiter.api.Test;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;

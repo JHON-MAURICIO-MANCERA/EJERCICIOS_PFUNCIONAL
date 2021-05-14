@@ -1,10 +1,9 @@
-package io.pivotal.literx;
+package literx;
 
-import io.pivotal.literx.domain.User;
+
+import literx.domain.User;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
-
-import java.util.Locale;
 
 /**
  * Learn how to transform values.

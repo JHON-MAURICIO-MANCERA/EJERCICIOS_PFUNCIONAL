@@ -1,4 +1,4 @@
-package io.pivotal.literx;
+package literx;
 
 import reactor.core.publisher.Mono;
 

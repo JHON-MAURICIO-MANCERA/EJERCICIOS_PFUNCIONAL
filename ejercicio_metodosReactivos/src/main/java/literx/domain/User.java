@@ -1,4 +1,4 @@
-package io.pivotal.literx.domain;
+package literx.domain;
 
 public class User {
 

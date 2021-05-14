@@ -14,18 +14,20 @@
  * limitations under the License.
  */
 
-package io.pivotal.literx;
+package literx;
 
-import java.util.concurrent.CompletableFuture;
 
-import io.pivotal.literx.domain.User;
 import io.reactivex.rxjava3.core.BackpressureStrategy;
+
 import io.reactivex.rxjava3.core.Flowable;
 import io.reactivex.rxjava3.core.Observable;
 import io.reactivex.rxjava3.core.Single;
+import literx.domain.User;
 import org.reactivestreams.Publisher;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
+
+import java.util.concurrent.CompletableFuture;
 
 import static reactor.adapter.rxjava.RxJava3Adapter.*;
 

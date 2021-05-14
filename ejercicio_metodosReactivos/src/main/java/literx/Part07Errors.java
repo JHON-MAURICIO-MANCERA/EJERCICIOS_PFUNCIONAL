@@ -14,12 +14,14 @@
  * limitations under the License.
  */
 
-package io.pivotal.literx;
+package literx;
 
-import io.pivotal.literx.domain.User;
+
+import literx.domain.User;
 import reactor.core.Exceptions;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
+
 
 /**
  * Learn how to deal with errors.

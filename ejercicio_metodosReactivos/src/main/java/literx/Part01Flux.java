@@ -1,9 +1,8 @@
-package io.pivotal.literx;
+package literx;
 
 import reactor.core.publisher.Flux;
 
 import java.time.Duration;
-import java.util.ArrayList;
 import java.util.Arrays;
 
 /**

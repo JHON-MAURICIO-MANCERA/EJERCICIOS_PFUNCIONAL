@@ -1,4 +1,4 @@
-package io.pivotal.literx.repository;
+package literx.repository;
 
 import org.reactivestreams.Publisher;
 import reactor.core.publisher.Flux;

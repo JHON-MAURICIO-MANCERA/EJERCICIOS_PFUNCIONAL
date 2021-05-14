@@ -1,6 +1,7 @@
-package io.pivotal.literx.repository;
+package literx.repository;
 
-import io.pivotal.literx.domain.User;
+
+import literx.domain.User;
 import reactor.core.publisher.Mono;
 
 public class BlockingUserRepository implements BlockingRepository<User>{

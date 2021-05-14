@@ -1,4 +1,4 @@
-package io.pivotal.literx.repository;
+package literx.repository;
 
 public interface BlockingRepository<T> {
 

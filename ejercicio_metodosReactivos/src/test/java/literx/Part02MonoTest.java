@@ -1,10 +1,10 @@
-package io.pivotal.literx;
-
-import java.time.Duration;
+package literx;
 
 import org.junit.jupiter.api.Test;
 import reactor.core.publisher.Mono;
 import reactor.test.StepVerifier;
+
+import java.time.Duration;
 
 /**
  * Learn how to create Mono instances.

@@ -1,4 +1,4 @@
-package io.pivotal.literx;
+package literx;
 
 import org.junit.jupiter.api.Test;
 import reactor.core.publisher.Flux;

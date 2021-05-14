@@ -14,21 +14,22 @@
  * limitations under the License.
  */
 
-package io.pivotal.literx;
+package literx;
 
-import java.util.concurrent.CompletableFuture;
 
-import io.pivotal.literx.domain.User;
-import io.pivotal.literx.repository.ReactiveRepository;
-import io.pivotal.literx.repository.ReactiveUserRepository;
 import io.reactivex.rxjava3.core.Flowable;
 import io.reactivex.rxjava3.core.Observable;
 import io.reactivex.rxjava3.core.Single;
+import literx.domain.User;
+import literx.repository.ReactiveRepository;
+import literx.repository.ReactiveUserRepository;
 import org.junit.jupiter.api.Test;
 import org.reactivestreams.Publisher;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 import reactor.test.StepVerifier;
+
+import java.util.concurrent.CompletableFuture;
 
 /**
  * Learn how to adapt from/to RxJava 3 Observable/Single/Flowable and Java 8+ CompletableFuture.
