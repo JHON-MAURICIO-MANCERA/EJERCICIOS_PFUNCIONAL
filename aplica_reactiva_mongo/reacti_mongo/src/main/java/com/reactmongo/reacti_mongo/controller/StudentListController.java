@@ -39,4 +39,12 @@ public class StudentListController {
         model.addAttribute("students", new ReactiveDataDriverContextVariable(userFlux, 1));
         return "students";
     }
+    @GetMapping("/list-students-reactive3")
+    public String listUsersReactive3(Model model)
+    {
+        Flux<Student> userFlux = repository.findAll().delayElements(Duration.ofSeconds(1));
+        model.addAttribute("students", new ReactiveDataDriverContextVariable(userFlux, 1));
+        return "students";
+    }
+
 }

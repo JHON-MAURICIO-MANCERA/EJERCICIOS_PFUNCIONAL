@@ -1,14 +1,6 @@
 package com.reactive.ejemploreactivo.controller;
 
 
-
-import org.springframework.http.HttpStatus;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.reactive.function.client.WebClient;
-import reactor.core.publisher.Flux;
-import reactor.core.publisher.Mono;
-
 import javax.xml.transform.Result;
 @RestController
 public class Controller {
@@ -21,7 +13,7 @@ public class Controller {
                 .doOnSuccess(Result::stop);
     }
 
-    private WebClient client = new WebClient(new ReactorHttpClientRequestFactory());
+    private WebClient client = new WebClient();
 
     private Mono<HttpStatus> fetch(int value) {
         return this.client.perform(HttpRequestBuilders.get("http://example.com"))
